@@ -22,9 +22,9 @@ jobs:
 
       - run: pip install -r requirements-dev.txt
 
-      - run: chmod +x lint.sh
+      - run: chmod +x scripts/lint.sh
 
-      - run: ./lint.sh
+      - run: ./scripts/lint.sh
 
   test:
     runs-on: ubuntu-latest
